@@ -58,7 +58,10 @@
 	1. PRIMARY STYLES
 	--------------------------------- */
 
-	body{ font-size: 12px;  }
+	body{ font-size: 14px;  }
+	.left-section .logo{ position: absolute; top: 20px; height: 55px; }
+	.left-section .footer-icons{ position: absolute; bottom: 80px;}
+
 
 }
 
