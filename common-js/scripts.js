@@ -63,20 +63,15 @@
 	// Give the parameter a variable name
 	var dynamicContent = getParameterByName('signup');
 
-	console.log("My name is Khan");
-	console.log(dynamicContent);
-	console.log(dynamicContent == '1');
-
  	$(document).ready(function() {
 
 		// Check if the URL parameter is 1
 		if (dynamicContent == '1') {
-			console.log("WTFFFF-1")
 			$('#success-signup').show();
 		} 
 		// Check if the URL parmeter is empty or not defined, display default content
 		else {
-			console.log("WTFFFF-2")
+			
 			$('#default-content').show();
 		}
 	});
